@@ -155,6 +155,7 @@ output application/json
 } as Object {encoding: "UTF-8", mediaType: "application/json"}]]></ee:set-payload>
             </ee:message>
         </ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="3ea64b5b-d6b2-43fd-a111-7b603bb39a4e" message="#[payload]" category="PrintPayload"/>
     </flow>
     <flow name="post:\addSpecs:application\json:specactions-config">
         <ee:transform doc:name="Transform Message">
