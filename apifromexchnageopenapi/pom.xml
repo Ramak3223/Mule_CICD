@@ -35,9 +35,9 @@
 	<profiles>
         <!-- ===== DEV Profile (CloudHub Sandbox) ===== -->
         <profile>
-            <id>dev</id>
+            <id>Development</id>
             <properties>
-                <env>dev</env>
+                <env>Development</env>
                 <anypoint.username>Kanneganti7905</anypoint.username>
                 <anypoint.password>Ishaan@2018</anypoint.password>
                 <anypoint.env>Development</anypoint.env>
