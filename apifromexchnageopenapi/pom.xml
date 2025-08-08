@@ -32,7 +32,21 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<profiles>
+        <!-- ===== DEV Profile (CloudHub Sandbox) ===== -->
+        <profile>
+            <id>Sandbox</id>
+            <properties>
+                <env>Sandbox</env>
+                <anypoint.username>kanneganti7905</anypoint.username>
+                <anypoint.password>Ishaan@2018</anypoint.password>
+                <anypoint.env>Sandbox</anypoint.env>
+                <cloudhub.workerType>MICRO</cloudhub.workerType>
+                <cloudhub.workers>1</cloudhub.workers>
+                <cloudhub.region>us-east-1</cloudhub.region>
+            </properties>
+        </profile>
+	</profiles>
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
